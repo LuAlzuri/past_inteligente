@@ -1,0 +1,140 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Estilos para el navbar */
+nav {
+    background-color: #5ba3b9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em; /* Ajusta el espaciado a tu gusto */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+#menu-toggle{
+    display: none;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Tamaño del logo, ajústalo según necesites */
+    margin-right: 15px;
+    border-radius: 50%;
+    
+}
+
+.logo h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.logo h1 span {
+    font-weight: bold; 
+}
+
+/* Opciones de navegación */
+.nav-options ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio entre las opciones del menú */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-options ul li {
+    list-style: none;
+}
+
+.nav-options ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-options ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+#intro, #objetivos, #futuro, #armado, #final {
+    min-height: 50vh;
+    padding-top: 120px;
+    padding-bottom: 3rem;
+    padding-right: 10.3rem;
+    padding-left: 10.3rem;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #5ba3b9;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Galería de imágenes */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#carouselExampleCaptions
+{
+    width: 110vh !important;
+    height: auto !important;
+    margin: 3rem auto;
+}
+
+#intro h1{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+h2{
+    padding-bottom: 2.5rem;
+    font-size: 2.5rem;
+}
+
+
+
+.textoHdos, #intro p {
+
+    font-size: 1.3rem;
+    padding-bottom: 36px;
+
+}
+section ul li{
+    list-style: none;
+}
